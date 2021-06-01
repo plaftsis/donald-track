@@ -1,0 +1,9 @@
+kafka-python
+python-twitter
+tweepy
+python-dotenv
+dash
+plotly
+pandas
+pymongo
+textblob
