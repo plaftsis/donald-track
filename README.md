@@ -31,7 +31,7 @@ The pipeline makes use of the [Twitter Streaming API](https://developer.twitter.
 
 On the other end, a `MongoDB Consumer` consumes the streaming data and stores them in a MongoDB collection. MongoDB is ideal for saving tweets and processing them later.
 
-Finally, simple statistics on sentiment, hottest related topics and user locations are presented in a real-time interactive `Dash Application`.
+Finally, simple statistics on sentiment, hottest related topics and user locations are presented in a real-time interactive `Dash Application` using [Pandas](https://pandas.pydata.org/) and [Dash](https://plotly.com/dash/).
 
 ## Prerequisites
 
