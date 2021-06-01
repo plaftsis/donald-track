@@ -11,6 +11,7 @@ kafka_server = os.environ['KAFKA_SERVER']
 db_host = os.environ['DB_HOST']
 db_port = int(os.environ['DB_PORT'])
 db_name = os.environ['DB_NAME']
+db_collection = os.environ['DB_COLLECTION']
 
 client = MongoClient(db_host, db_port)
 db = client[db_name]
@@ -28,5 +29,5 @@ consumer = KafkaConsumer(
 
 for message in consumer:
     tweet = json.loads(json.dumps(message.value))
-    db.tweets.insert_one(tweet)
+    db[db_collection].insert_one(tweet)
     print(tweet)

@@ -3,6 +3,7 @@ python-twitter
 tweepy
 python-dotenv
 dash
+dash-bootstrap-components
 plotly
 pandas
 pymongo
