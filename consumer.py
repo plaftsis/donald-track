@@ -30,4 +30,3 @@ consumer = KafkaConsumer(
 for message in consumer:
     tweet = json.loads(json.dumps(message.value))
     db[db_collection].insert_one(tweet)
-    print(tweet)

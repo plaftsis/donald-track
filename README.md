@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://trumpoji.com/images/emojis/peering_256.png" alt="Donald Track" width="200">
+  <a href="https://trumpoji.com/"><img src="https://github.com/plaftsis/donald-track/blob/master/assets/trump.png" alt="donald-track" width="200"></a>
   <br>
   donald-track
   <br>

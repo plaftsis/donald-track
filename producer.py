@@ -49,7 +49,6 @@ class TwitterStreamer:
 class MyListener(StreamListener):
 
     def on_error(self, status_code):
-        print(status_code)
         if status_code == 420:
             return False
 
@@ -58,7 +57,6 @@ class MyListener(StreamListener):
             return True
         tweet = self.parse_tweet(status)
         producer.send(topic_name, tweet)
-        print(tweet)
         return True
 
     def parse_tweet(self, status):
