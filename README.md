@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">A real-time sentiment analysis dashboard that tracks tweets about Donald Trump.</h4>
+<h4 align="center">A real-time sentiment analysis dashboard to track tweets about Donald Trump.</h4>
 
 <p align="center">
   <a href="#about">About</a> •
@@ -97,7 +97,7 @@ Start Dash App:
 python app.py
 ```
 
-Visit **http://127.0.0.1:8050/** to see the dashboard.
+Visit http://127.0.0.1:8050 to see the dashboard.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
