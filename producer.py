@@ -18,8 +18,6 @@ consumer_secret = os.environ['TWITTER_CONSUMER_SECRET']
 topic_name = os.environ['TOPIC_NAME']
 kafka_server = os.environ['KAFKA_SERVER']
 
-track_topic = os.environ['TRACK_TOPIC']
-
 producer = KafkaProducer(bootstrap_servers=kafka_server,
                          value_serializer=lambda x: json.dumps(x).encode('utf-8'))
 
